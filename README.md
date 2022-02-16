@@ -6,16 +6,18 @@ Generates and HTML portfolio page.
 * An HTML document containing the information collected from the prompts should be constructed and written to the file system. Be sure to add some CSS styling to the document.
 ## Getting Started
 ### Dependencies
-*None
+* None
 ### Installing
-*None
+* None
 ## Help
 None
 ## Authors
-
+* Kayla De La Cruz
+* Github user name:
+https://github.com/Topomat20
 ## Version History
-*0.1
-    *Initial Release
+* 0.1
+    * Initial Release
 ## License
 None
 ## Acknowledgments
