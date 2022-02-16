@@ -1,0 +1,23 @@
+{
+  "name": "html-portfolio-mini",
+  "version": "1.0.0",
+  "description": "Generates and HTML portfolio page. ## Description * Your application should prompt the user for information like their name, location, bio, LinkedIn URL, and GitHub URL. Feel free to add any additional prompts you think of.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Topomat20/HTML-portfolio-mini.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Topomat20/HTML-portfolio-mini/issues"
+  },
+  "homepage": "https://github.com/Topomat20/HTML-portfolio-mini#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
