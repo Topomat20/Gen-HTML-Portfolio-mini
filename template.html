@@ -1,45 +1,4 @@
-const inquire = require('inquirer');
-const fs = require('fs');
-
-const ans = () =>{
-    return inquire.prompt([
-        {
-            type:'input',
-            message:'What is your name?',
-            name:'name',
-        },
-        {
-            type:'input',
-            message:'Where are you from?',
-            name:'location',
-        },
-        {
-            type:'input',
-            message:'Enter your GitHub Username',
-            name:'github',
-        },
-        {
-            type:'input',
-            message:'Enter your LinkedIn URL',
-            name:'linkedin',
-        },
-    ]);
-};
-
-const result = () =>{
-    ans()
-    .then((ans)=>fs.writeFile(`${ans.name}.html`, html(ans),(err)=>{
-        if(err){
-            throw err;
-        }else{
-            console.log("File written successfully\n");
-        }
-    }))
-}
-
-result();
-const html = ({name, location, github, linkedin})=>
-`<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -63,4 +22,4 @@ const html = ({name, location, github, linkedin})=>
           </ul>
     </div>
 </body>
-</html>`;
+</html>
