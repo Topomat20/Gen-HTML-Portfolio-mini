@@ -1,4 +1,4 @@
-# HTML-portfolio-mini
+# Gen-HTML-portfolio-mini
 Generates and HTML portfolio page.
 ## Description
 * Your application should prompt the user for information like their name, location, bio, LinkedIn URL, and GitHub URL. Feel free to add any additional prompts you think of.
@@ -20,9 +20,8 @@ Generates and HTML portfolio page.
 ## Help
 None
 ## Authors
-* Kayla De La Cruz
-* Github user name:
-https://github.com/Topomat20
+Contributors names and contact info
+[Topomat20](https://github.com/Topomat20)
 ## Version History
 https://topomat20.github.io/HTML-portfolio-mini/
 * 0.1
